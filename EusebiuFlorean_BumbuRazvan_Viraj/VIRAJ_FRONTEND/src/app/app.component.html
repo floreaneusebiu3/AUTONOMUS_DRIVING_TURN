@@ -1,0 +1,26 @@
+<body>
+  <div class="background"> 
+    <div class="header pt-5 d-flex justify-content-center">
+      <div>
+        <img alt="My image name" src="./assets/bmw-4-series-coupe-m-csl-modelfinder.png">
+      </div>
+      <div>
+        <h2 class="mr-5">Choose one:</h2>
+        <mat-chip-listbox aria-label="Fish selection" class="custom-chip-listbox">
+          <mat-chip-option color="primary" (selectionChange)="sendScenario1Request()">Scenario 1</mat-chip-option>
+          <mat-chip-option color="primary" (selectionChange)="sendScenario2Request()">Scenario 2</mat-chip-option>
+          <mat-chip-option color="primary" (selectionChange)="sendScenario3Request()">Scenario 3</mat-chip-option>
+          <mat-chip-option color="primary" (selectionChange)="sendScenario4Request()">Scenario 4</mat-chip-option>
+        </mat-chip-listbox>
+      </div>
+    </div>
+    <div *ngFor="let record of images; let i = index; let j = index">
+      <app-time-card 
+      [message1]="data1[i]"
+      [message2]="data2[i]"
+      [allowed]="allowedStatus[i]" 
+      [imagePath]="images[i]">
+    </app-time-card>
+    </div>
+  </div>
+</body>

@@ -1,0 +1,26 @@
+<div class="content d-flex justify-content-center">
+    <div class="image-content">
+        <img alt="My image name" [src]="imagePath">
+    </div>
+    <div class="text-container d-flex justify-content-center">
+        <div>
+            <div>
+                <h2>
+                    {{message1}}
+                    <br>
+                    {{message2}}              
+                  </h2>
+            </div>
+            <div *ngIf="allowed" class="allowed-icon d-flex justify-content-center">
+                <span class="material-symbols-outlined">
+                    check_circle
+                </span>
+            </div>
+            <div *ngIf="!allowed" class="prohibited-icon d-flex justify-content-center">
+                <span class="material-symbols-outlined">
+                    cancel
+                    </span>
+            </div>
+        </div>
+    </div>
+</div>

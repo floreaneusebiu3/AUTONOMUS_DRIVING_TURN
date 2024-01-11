@@ -1,0 +1,36 @@
+.content {
+    height: 200px;
+    margin: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    gap: 100px;
+
+    .image-content {
+        margin-left: 50px;
+    }
+
+    .text-container {
+        width: 50%;
+    
+        h2 {
+            margin-top: 10px;
+            width: 100%;
+        }
+    }
+
+    .allowed-icon {
+        margin-top: 40px;
+        span {
+            color: green;
+            transform: scale(4);
+        }
+    }
+
+    .prohibited-icon {
+        margin-top: 40px;
+        span {
+            color: red;
+            transform: scale(4);
+        }
+    }
+}

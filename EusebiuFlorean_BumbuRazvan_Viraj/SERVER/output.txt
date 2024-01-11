@@ -1,0 +1,54 @@
+   PERCEPT-MANAGER: timp = 1
+         AGENT right-turn-maneuver prohibited
+   PERCEPT-MANAGER: timp = 2
+         AGENT right-turn-maneuver prohibited
+   PERCEPT-MANAGER: timp = 3
+         AGENT right-turn-maneuver prohibited
+   PERCEPT-MANAGER: timp = 4
+         AGENT right-turn-maneuver prohibited
+   PERCEPT-MANAGER: timp = 5
+         AGENT right-turn-maneuver allowed
+   PERCEPT-MANAGER: timp = 6
+         AGENT right-turn-maneuver allowed
+   PERCEPT-MANAGER: timp = 7
+         AGENT right-turn-maneuver allowed
+   PERCEPT-MANAGER: timp = 8
+         AGENT right-turn-maneuver allowed
+   PERCEPT-MANAGER: timp = 9
+         AGENT right-turn-maneuver allowed
+   PERCEPT-MANAGER: timp = 10
+         AGENT left-turn-maneuver prohibited
+   PERCEPT-MANAGER: timp = 11
+         AGENT left-turn-maneuver prohibited
+   PERCEPT-MANAGER: timp = 12
+         AGENT left-turn-maneuver prohibited
+   PERCEPT-MANAGER: timp = 13
+         AGENT left-turn-maneuver prohibited
+   PERCEPT-MANAGER: timp = 14
+         AGENT left-turn-maneuver prohibited
+   PERCEPT-MANAGER: timp = 15
+         AGENT left-turn-maneuver prohibited
+   PERCEPT-MANAGER: timp = 16
+         AGENT left-turn-maneuver prohibited
+   PERCEPT-MANAGER: timp = 17
+         AGENT left-turn-maneuver allowed
+   PERCEPT-MANAGER: timp = 18
+         AGENT left-turn-maneuver allowed
+   PERCEPT-MANAGER: timp = 19
+         AGENT left-turn-maneuver prohibited
+   PERCEPT-MANAGER: timp = 20
+         AGENT left-turn-maneuver prohibited
+   PERCEPT-MANAGER: timp = 21
+         AGENT left-turn-maneuver prohibited
+   PERCEPT-MANAGER: timp = 22
+         AGENT left-turn-maneuver prohibited
+   PERCEPT-MANAGER: timp = 23
+         AGENT left-turn-maneuver prohibited
+   PERCEPT-MANAGER: timp = 24
+         AGENT left-turn-maneuver prohibited
+   PERCEPT-MANAGER: timp = 25
+         AGENT left-turn-maneuver allowed
+   PERCEPT-MANAGER: timp = 26
+         AGENT left-turn-maneuver allowed
+   PERCEPT-MANAGER: timp = 27
+         AGENT left-turn-maneuver allowed
